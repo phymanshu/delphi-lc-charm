@@ -1,0 +1,30 @@
+# data and big outputs never go into git
+*.al
+*.csv.gz
+LcFiles/
+dump_*/
+dump_out/
+lists/
+jobs/
+build/
+qa*/
+*_candidates.csv*
+# results produced by the scripts (re-create them with lc_run.py)
+*_select*.png
+*_select*_summary.txt
+*_mass.png
+*_summary.txt
+lc_scan.csv
+# python / editors / logs
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+.DS_Store
+# machine-specific
+all_list.txt
+redo_list.txt
+mismatch.txt
+test_list.txt
+val_list.txt

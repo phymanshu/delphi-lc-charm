@@ -1,0 +1,201 @@
+recid,name,fam,yr,role,scope,keep,events,files,GiB,reason
+81000,rawd90,rawd,90,RAW,,False,228298,171,26.7,RAW data of all events; not a DST (needs full reconstruction)
+81003,rawd91,rawd,91,RAW,,False,930615,641,90.877,RAW data of all events; not a DST (needs full reconstruction)
+81009,lolept91_f1,lolept,91,SUBSET,,False,203117,17,1.169,selection from a larger stream (lolept)
+81013,short91_f1,short,91,DST,C_LEP1,True,1145933,45,3.888,latest processing/fix of its group
+81064,lolept92_d2,lolept,92,SUBSET,,False,425013,47,2.642,selection from a larger stream (lolept)
+81068,lolept92_e2,lolept,92,SUBSET,,False,521173,64,4.595,selection from a larger stream (lolept)
+81073,rawd92,rawd,92,RAW,,False,8907364,4301,554.767,RAW data of all events; not a DST (needs full reconstruction)
+81090,short92_d2,short,92,SUPERSEDED,C_LEP1,False,2227310,97,9.398,older processing/fix of short92_e2
+81098,short92_e2,short,92,DST,C_LEP1,True,2482495,172,16.119,latest processing/fix of its group
+81133,rawd93,rawd,93,RAW,,False,5844794,2746,363.212,RAW data of all events; not a DST (needs full reconstruction)
+81135,lolept93_c1,lolept,93,SUBSET,,False,560192,55,3.582,selection from a larger stream (lolept)
+81136,lolept93_d2,lolept,93,SUBSET,,False,572429,61,4.927,selection from a larger stream (lolept)
+81166,short93_d2,short,93,DST,C_LEP1,True,2766589,181,16.421,latest processing/fix of its group
+81172,short93_c1,short,93,SUPERSEDED,C_LEP1,False,2745098,151,10.86,older processing/fix of short93_d2
+81431,short94_c2,short,94,DST,C_LEP1,True,5753343,429,35.713,latest processing/fix of its group
+81435,rawd94,rawd,94,RAW,,False,12986216,5178,694.742,RAW data of all events; not a DST (needs full reconstruction)
+81438,lolept94_c2,lolept,94,SUBSET,,False,828851,132,11.247,selection from a larger stream (lolept)
+81482,lolept95_d2,lolept,95,SUBSET,,False,472921,77,7.124,selection from a larger stream (lolept)
+81487,lolept95_c2,lolept,95,SUBSET,,False,463661,70,5.44,selection from a larger stream (lolept)
+81494,long95p3_d2,long,95,DST,X_ambiguous,False,331546,30,2.835,Long DST ('OR' of physics teams); different format/period naming
+81498,long95p3,long,95,DST,X_ambiguous,False,331546,30,2.835,Long DST ('OR' of physics teams); different format/period naming
+81500,long95p3_c2,long,95,DST,X_ambiguous,False,1622546,106,6.415,Long DST ('OR' of physics teams); different format/period naming
+81502,short95_d2,short,95,DST,C_LEP1,True,3661917,246,19.732,latest processing/fix of its group
+81503,rawd95,rawd,95,RAW,,False,11524142,3452,486.112,RAW data of all events; not a DST (needs full reconstruction)
+81507,rawd_1,rawd,,RAW,,False,21091350,9999,1313.95,RAW data of all events; not a DST (needs full reconstruction)
+81642,lept96_g,lept,96,SUBSET,,False,18667,3,0.567,selection from a larger stream (lept)
+81650,dsto96_e161_g,dsto,96,TANAGRA,,False,82894,984,66.574,full-DST/TANAGRA output for debugging/display; not XShort
+81656,hadr96_f2,hadr,96,SUBSET,,False,9233,5,0.167,selection from a larger stream (hadr)
+81666,stic96_e172_g1,stic,96,SUBSET,,False,232626,6,0.936,selection from a larger stream (stic)
+81670,hadr96_e172_g1,hadr,96,SUBSET,,False,14988,3,0.285,selection from a larger stream (hadr)
+81678,alld96_e161_g2,alld,96,DST,A_LEP2_main,True,1898501,45,10.178,latest processing/fix of its group
+81706,scan96_e161_g1,scan,96,SUBSET,,False,5116,984,2.06,selection from a larger stream (scan)
+81719,short96_e1,short,96,SUPERSEDED,C_LEP1,False,104158,14,0.79,older processing/fix of short96_f1
+81736,xsdst96_e161_g1,xsdst,96,DST,X_ambiguous,False,122180,8,1.07,"'most events after DAFNE tag', 122k ev; relation to alld96 unclear"
+81739,stic96_e161_g1,stic,96,SUBSET,,False,796321,18,3.759,selection from a larger stream (stic)
+81748,rawd96,rawd,96,RAW,,False,2825598,1511,195.739,RAW data of all events; not a DST (needs full reconstruction)
+81752,scan96_e172_g1,scan,96,SUBSET,,False,4588,518,1.828,selection from a larger stream (scan)
+81756,short96_f1,short,96,DST,C_LEP1,True,101923,10,0.86,latest processing/fix of its group
+81767,hadr96_e161_g2,hadr,96,SUBSET,,False,17123,4,0.355,selection from a larger stream (hadr)
+81773,long96_e1,long,96,DST,X_ambiguous,False,2833170,427,35.067,Long DST ('OR' of physics teams); different format/period naming
+81818,lept97_g,lept,97,SUBSET,,False,29617,6,0.862,selection from a larger stream (lept)
+81819,xsdst97_e183_g2,xsdst,97,DST,X_ambiguous,False,372541,28,5.454,"XShort 97 e183, 'most events after DAFNE tag'; ~8% of alld97_e183 events; likely a subset"
+81825,xshort97z_d1,xshort,97,SUPERSEDED,B_Z0_calib,False,165723,30,1.822,older processing/fix of xshort97z_g2
+81858,dsto97_e,dsto,97,TANAGRA,,False,511771,2140,219.921,full-DST/TANAGRA output for debugging/display; not XShort
+81873,alld97_e183_g2,alld,97,DST,A_LEP2_main,True,4870333,136,30.535,latest processing/fix of its group
+81884,xsdst97_e183_g1,xsdst,97,DST,X_ambiguous,False,461247,31,6.064,"XShort 97 e183, 'most events after DAFNE tag'; ~8% of alld97_e183 events; likely a subset"
+81889,dsto97_g,dsto,97,TANAGRA,,False,420337,2183,286.842,full-DST/TANAGRA output for debugging/display; not XShort
+81894,lept97,lept,97,SUBSET,,False,29617,6,0.862,selection from a larger stream (lept)
+81899,xshort97z_g2,xshort,97,DST,B_Z0_calib,True,188795,13,2.538,latest processing/fix of its group
+81909,alld97_e183_g1,alld,97,SUPERSEDED,A_LEP2_main,False,4870333,145,32.314,older processing/fix of alld97_e183_g2
+81913,hadr97_e3,hadr,97,SUBSET,,False,84683,12,1.527,selection from a larger stream (hadr)
+81923,hadr97_e183_g2,hadr,97,SUBSET,,False,86110,13,1.846,selection from a larger stream (hadr)
+81926,xsdst97_e3,xsdst,97,DST,X_ambiguous,False,2919783,116,25.903,"'most events after DAFNE tag' 5th proc, 2.9M ev vs alld97_e183; overlap unclear"
+81931,hadr97_e183_g1,hadr,97,SUBSET,,False,84910,14,1.876,selection from a larger stream (hadr)
+81935,xshort97_e2,xshort,97,DST,X_ambiguous,False,591221,2238,98.634,"'RTXS or XS only, all events after DSTANA', 98.6 GiB, 591k ev; format/overlap unclear"
+81965,hadr97_d2,hadr,97,SUBSET,,False,42525,22,0.81,selection from a larger stream (hadr)
+81969,dsto97_d,dsto,97,TANAGRA,,False,508996,2155,215.128,full-DST/TANAGRA output for debugging/display; not XShort
+81987,dsto97z,dsto,97,TANAGRA,,False,188795,27,5.451,full-DST/TANAGRA output for debugging/display; not XShort
+81997,xshort97z_e3,xshort,97,SUPERSEDED,B_Z0_calib,False,182575,12,2.424,older processing/fix of xshort97z_g2
+82002,stic97_e183_g1,stic,97,SUBSET,,False,1582289,48,10.238,selection from a larger stream (stic)
+82004,xshort97z_g1,xshort,97,SUPERSEDED,B_Z0_calib,False,188795,14,2.566,older processing/fix of xshort97z_g2
+82018,xsdst97_d2,xsdst,97,DST,X_ambiguous,False,2935292,257,24.559,"'all events after DAFNE tag' 4th proc, 2.9M ev vs alld97_e183 4.9M ev (7th proc); overlap unclear"
+82021,scan97_e183_g1,scan,97,SUBSET,,False,19745,2183,8.233,selection from a larger stream (scan)
+82051,rawd97,rawd,97,RAW,,False,5949937,2676,320.225,RAW data of all events; not a DST (needs full reconstruction)
+82052,dsto97,dsto,97,TANAGRA,,False,420337,2183,286.842,full-DST/TANAGRA output for debugging/display; not XShort
+82054,dsto97z_g,dsto,97,TANAGRA,,False,188795,27,5.451,full-DST/TANAGRA output for debugging/display; not XShort
+82377,xshort98z_e2,xshort,98,DST,B_Z0_calib,True,333318,27,5.198,latest processing/fix of its group
+82385,xshort98z_e1,xshort,98,SUPERSEDED,B_Z0_calib,False,333318,27,5.272,older processing/fix of xshort98z_e2
+82397,xshort98z_d2,xshort,98,SUPERSEDED,B_Z0_calib,False,304336,23,4.759,older processing/fix of xshort98z_e2
+82410,xshort98z_d1,xshort,98,SUPERSEDED,B_Z0_calib,False,304336,25,4.831,older processing/fix of xshort98z_e2
+82418,xshort98z_c2,xshort,98,SUPERSEDED,B_Z0_calib,False,300348,24,4.705,older processing/fix of xshort98z_e2
+82431,xsdst98_e2,xsdst,98,DST,X_optional,False,1018113,75,15.36,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+82446,xsdst98_e1,xsdst,98,DST,X_optional,False,1201119,83,16.769,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+82459,xsdst98_d2,xsdst,98,DST,X_optional,False,1089824,78,15.221,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+82471,xsdst98_c2,xsdst,98,DST,X_optional,False,1035008,107,13.707,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+82572,dsto98_d,dsto,98,TANAGRA,,False,1085198,4932,734.453,full-DST/TANAGRA output for debugging/display; not XShort
+82627,dsto98_c,dsto,98,TANAGRA,,False,1030142,4926,709.905,full-DST/TANAGRA output for debugging/display; not XShort
+82644,lept98_d,lept,98,SUBSET,,False,50852,13,1.725,selection from a larger stream (lept)
+82664,dsto98z_e,dsto,98,TANAGRA,,False,333318,54,11.847,full-DST/TANAGRA output for debugging/display; not XShort
+82674,alld98_e2,alld,98,DST,A_LEP2_main,True,13867887,357,81.746,latest processing/fix of its group
+82689,dsto98z_c,dsto,98,TANAGRA,,False,300348,47,10.336,full-DST/TANAGRA output for debugging/display; not XShort
+82704,dsto98z_d,dsto,98,TANAGRA,,False,304336,48,10.364,full-DST/TANAGRA output for debugging/display; not XShort
+82717,scan98_e1,scan,98,SUBSET,,False,53195,4947,22.74,selection from a larger stream (scan)
+82723,hadr98_e1,hadr,98,SUBSET,,False,216319,32,4.888,selection from a larger stream (hadr)
+82852,scan98_d2,scan,98,SUBSET,,False,208852,4956,32.375,selection from a larger stream (scan)
+82863,lept98_c,lept,98,SUBSET,,False,47778,10,1.587,selection from a larger stream (lept)
+82998,dsto98z,dsto,98,TANAGRA,,False,333318,54,11.847,full-DST/TANAGRA output for debugging/display; not XShort
+83036,stic98_d2,stic,98,SUBSET,,False,3935991,92,18.932,selection from a larger stream (stic)
+83055,stic98_e1,stic,98,SUBSET,,False,3935963,91,19.042,selection from a larger stream (stic)
+83067,rawd98,rawd,98,RAW,,False,15118095,5532,755.925,RAW data of all events; not a DST (needs full reconstruction)
+83131,lept98_e,lept,98,SUBSET,,False,57855,11,2.08,selection from a larger stream (lept)
+83182,alld98_e1,alld,98,SUPERSEDED,A_LEP2_main,False,13867887,380,85.051,older processing/fix of alld98_e2
+85226,dsto99_c,dsto,99,TANAGRA,,False,1405580,4247,783.131,full-DST/TANAGRA output for debugging/display; not XShort
+85240,dsto99_e,dsto,99,TANAGRA,,False,1449739,4268,831.915,full-DST/TANAGRA output for debugging/display; not XShort
+85249,alld99_e192_e2,alld,99,DST,A_LEP2_main,True,1962132,50,11.294,latest processing of this energy slice
+85292,dsto99_e196_c,dsto,99,TANAGRA,,False,475735,1415,264.178,full-DST/TANAGRA output for debugging/display; not XShort
+85315,alld99_e200_e1,alld,99,SUPERSEDED,A_LEP2_main,False,4755483,117,26.075,older processing/fix of alld99_e200_e2
+85317,alld99_e196_e1,alld,99,DST,A_LEP2_main,True,4364092,111,24.762,latest processing of this energy slice
+85320,alld99_e202_e1,alld,99,SUPERSEDED,A_LEP2_main,False,2462835,54,11.938,older processing/fix of alld99_e202_e2
+85322,alld99_e192_d1,alld,99,SUPERSEDED,A_LEP2_main,False,1961703,53,11.598,older processing/fix of alld99_e192_e2
+85324,alld99_e200_c1,alld,99,SUPERSEDED,A_LEP2_main,False,4189424,114,25.557,older processing/fix of alld99_e200_e2
+85331,alld99_e196_d1,alld,99,SUPERSEDED,A_LEP2_main,False,4364092,112,24.904,older processing/fix of alld99_e196_e1
+85338,alld99_c1,alld,99,SUPERSEDED,A_LEP2_main,False,11917771,324,72.482,whole-year 3rd proc (11.9M ev); per-energy 4th/5th-proc slices cover 13.5M ev
+85342,dsto99_e196_d,dsto,99,TANAGRA,,False,494853,1423,282.551,full-DST/TANAGRA output for debugging/display; not XShort
+85358,dsto99_e192_c,dsto,99,TANAGRA,,False,173730,726,105.95,full-DST/TANAGRA output for debugging/display; not XShort
+85364,alld99_e202_e2,alld,99,DST,A_LEP2_main,True,2462960,53,11.809,latest processing of this energy slice
+85367,alld99_e204_c1,alld,99,DST,A_LEP2_main,True,2133,1,0.013,latest processing of this energy slice
+85369,dsto99_e196_e,dsto,99,TANAGRA,,False,490665,1423,280.487,full-DST/TANAGRA output for debugging/display; not XShort
+85380,dsto99_e192_e,dsto,99,TANAGRA,,False,180210,726,113.349,full-DST/TANAGRA output for debugging/display; not XShort
+85383,dsto99_d,dsto,99,TANAGRA,,False,1462420,4262,838.669,full-DST/TANAGRA output for debugging/display; not XShort
+85391,dsto99_e202_e,dsto,99,TANAGRA,,False,253500,662,141.777,full-DST/TANAGRA output for debugging/display; not XShort
+85397,alld99_e200_e2,alld,99,DST,A_LEP2_main,True,4755021,112,25.783,latest processing of this energy slice
+85405,alld99_e200_d1,alld,99,SUPERSEDED,A_LEP2_main,False,4755875,117,26.265,older processing/fix of alld99_e200_e2
+85409,alld99_e192_c1,alld,99,SUPERSEDED,A_LEP2_main,False,1719838,49,11.056,older processing/fix of alld99_e192_e2
+85416,dsto99_e192_d,dsto,99,TANAGRA,,False,183770,725,115.435,full-DST/TANAGRA output for debugging/display; not XShort
+88744,dsto99z_d,dsto,99,TANAGRA,,False,388959,63,13.613,full-DST/TANAGRA output for debugging/display; not XShort
+88750,scan99_d1,scan,99,SUBSET,,False,70691,4256,30.081,selection from a larger stream (scan)
+88757,scan99_e192_d1,scan,99,SUBSET,,False,8489,726,3.622,selection from a larger stream (scan)
+88770,scan99_e192_c1,scan,99,SUBSET,,False,7661,726,3.361,selection from a larger stream (scan)
+88787,dsto99_e204_c,dsto,99,TANAGRA,,False,265,1,0.142,full-DST/TANAGRA output for debugging/display; not XShort
+88788,rawd99,rawd,99,RAW,,False,14479531,4623,748.637,RAW data of all events; not a DST (needs full reconstruction)
+88805,dsto99_e200_e,dsto,99,TANAGRA,,False,525364,1457,296.303,full-DST/TANAGRA output for debugging/display; not XShort
+88813,lept99,lept,99,SUBSET,,False,64527,9,1.854,selection from a larger stream (lept)
+88823,lept99_d,lept,99,SUBSET,,False,67611,11,2.022,selection from a larger stream (lept)
+88827,hadr99_e196_e1,hadr,99,SUBSET,,False,92330,11,1.887,selection from a larger stream (hadr)
+88836,dsto99z_e,dsto,99,TANAGRA,,False,382843,62,13.561,full-DST/TANAGRA output for debugging/display; not XShort
+88837,lept99_e,lept,99,SUBSET,,False,65651,11,1.931,selection from a larger stream (lept)
+88841,hadr99_e204_c1,hadr,99,SUBSET,,False,25,1,0.001,selection from a larger stream (hadr)
+88843,hadr99_e196_e2,hadr,99,SUBSET,,False,93248,11,1.9,selection from a larger stream (hadr)
+88847,hadr99_e202_e1,hadr,99,SUBSET,,False,46334,6,0.945,selection from a larger stream (hadr)
+88851,hadr99_e200_e1,hadr,99,SUBSET,,False,96391,12,1.975,selection from a larger stream (hadr)
+88857,hadr99_e2,hadr,99,SUBSET,,False,270983,35,5.558,selection from a larger stream (hadr)
+88861,hadr99_e200_c1,hadr,99,SUBSET,,False,65442,11,1.517,selection from a larger stream (hadr)
+88866,hadr99_e200_e2,hadr,99,SUBSET,,False,96989,13,1.989,selection from a larger stream (hadr)
+88868,dsto99z_c,dsto,99,TANAGRA,,False,382588,62,13.408,full-DST/TANAGRA output for debugging/display; not XShort
+88872,hadr99_e202_d1,hadr,99,SUBSET,,False,47566,6,0.986,selection from a larger stream (hadr)
+88885,scan99_e202_e1,scan,99,SUBSET,,False,12342,662,5.249,selection from a larger stream (scan)
+88886,stic99_e200_e1,stic,99,SUBSET,,False,1227824,22,4.347,selection from a larger stream (stic)
+88889,scan99_e202_d1,scan,99,SUBSET,,False,12433,662,5.251,selection from a larger stream (scan)
+88910,stic99_e196_d1,stic,99,SUBSET,,False,1141930,21,4.134,selection from a larger stream (stic)
+88925,scan99_e204_c1,scan,99,SUBSET,,False,14,1,0.004,selection from a larger stream (scan)
+88935,stic99_d1,stic,99,SUBSET,,False,3490594,65,12.668,selection from a larger stream (stic)
+88943,scan99_e200_d1,scan,99,SUBSET,,False,25848,1445,10.88,selection from a larger stream (scan)
+88961,scan99_e200_e1,scan,99,SUBSET,,False,25916,1445,11.018,selection from a larger stream (scan)
+88969,scan99_e202_c1,scan,99,SUBSET,,False,10897,651,4.809,selection from a larger stream (scan)
+88974,stic99_e1,stic,99,SUBSET,,False,3490549,64,12.508,selection from a larger stream (stic)
+88976,scan99_e200_c1,scan,99,SUBSET,,False,22879,1442,10.081,selection from a larger stream (scan)
+88988,stic99_e200_c1,stic,99,SUBSET,,False,1224405,22,4.501,selection from a larger stream (stic)
+89007,stic99_e196_c1,stic,99,SUBSET,,False,1141930,21,4.238,selection from a larger stream (stic)
+89014,stic99_e192_e1,stic,99,SUBSET,,False,534507,11,2.086,selection from a larger stream (stic)
+89037,scan99_e196_d1,scan,99,SUBSET,,False,23921,1423,10.329,selection from a larger stream (scan)
+89039,stic99_c1,stic,99,SUBSET,,False,3481440,65,12.94,selection from a larger stream (stic)
+89053,stic99_e196_e1,stic,99,SUBSET,,False,1141930,21,4.086,selection from a larger stream (stic)
+89072,stic99_e202_d1,stic,99,SUBSET,,False,586288,10,2.014,selection from a larger stream (stic)
+89802,hadr00_s1,hadr,00,SUBSET,,False,72532,27,1.66,selection from a larger stream (hadr)
+89864,dsto00_u,dsto,00,TANAGRA,,False,429913,1944,305.175,full-DST/TANAGRA output for debugging/display; not XShort
+89893,hadr00_u1,hadr,00,SUBSET,,False,74505,13,1.749,selection from a larger stream (hadr)
+89901,dsto00z_s,dsto,00,TANAGRA,,False,40974,7,1.549,full-DST/TANAGRA output for debugging/display; not XShort
+89906,dsto00z_e,dsto,00,TANAGRA,,False,236993,43,9.142,full-DST/TANAGRA output for debugging/display; not XShort
+89979,alld00_u1,alld,00,SUPERSEDED,A_LEP2_main,False,5443715,134,30.03,older processing/fix of alld00_u2
+89985,alld00_c1,alld,00,SUPERSEDED,A_LEP2_main,False,10170962,291,65.049,older processing/fix of alld00_e2
+89997,alld00_u2,alld,00,DST,A_LEP2_main,True,5444181,126,28.974,latest processing/fix of its group
+90064,dsto00z_c,dsto,00,TANAGRA,,False,235978,42,9.015,full-DST/TANAGRA output for debugging/display; not XShort
+90096,hadr00_c1,hadr,00,SUBSET,,False,189536,34,4.012,selection from a larger stream (hadr)
+90128,hadr00_e2,hadr,00,SUBSET,,False,196570,35,4.431,selection from a larger stream (hadr)
+90164,hadr00_u2,hadr,00,SUBSET,,False,75342,12,1.732,selection from a larger stream (hadr)
+90285,hadr00_e1,hadr,00,SUBSET,,False,193410,35,4.436,selection from a larger stream (hadr)
+90339,alld00_e2,alld,00,DST,A_LEP2_main,True,14847033,309,69.99,latest processing/fix of its group
+90345,alld00_e1,alld,00,SUPERSEDED,A_LEP2_main,False,14843976,321,71.921,older processing/fix of alld00_e2
+90375,dsto00_s,dsto,00,TANAGRA,,False,422166,1931,288.987,full-DST/TANAGRA output for debugging/display; not XShort
+90396,dsto00_c,dsto,00,TANAGRA,,False,1066430,5989,666.965,full-DST/TANAGRA output for debugging/display; not XShort
+90399,dsto00z_u,dsto,00,TANAGRA,,False,41309,8,1.605,full-DST/TANAGRA output for debugging/display; not XShort
+90431,alld00_s1,alld,00,SUPERSEDED,A_LEP2_main,False,3567462,124,27.774,older processing/fix of alld00_u2
+90440,dsto00_e,dsto,00,TANAGRA,,False,1103022,5975,712.522,full-DST/TANAGRA output for debugging/display; not XShort
+91770,xsdst00_c1,xsdst,00,DST,X_optional,False,1191125,78,13.738,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91774,xsdst00_e1,xsdst,00,DST,X_optional,False,1230763,78,15.006,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91776,xsdst00_e2,xsdst,00,DST,X_optional,False,954143,72,13.594,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91778,xsdst00_s1,xsdst,00,DST,X_optional,False,469496,37,6.172,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91781,xsdst00_u1,xsdst,00,DST,X_optional,False,476206,32,6.436,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91784,xsdst00_u2,xsdst,00,DST,X_optional,False,377554,30,5.854,XShort 'events after DELANA filter' (~8% of alld events); probably a subset of the same data
+91786,xshort00z_c1,xshort,00,SUPERSEDED,B_Z0_calib,False,235978,21,4.461,older processing/fix of xshort00z_e2
+91787,xshort00z_e1,xshort,00,SUPERSEDED,B_Z0_calib,False,236993,21,4.505,older processing/fix of xshort00z_e2
+91791,xshort00z_s1,xshort,00,SUPERSEDED,B_Z0_calib,False,40974,4,0.749,older processing/fix of xshort00z_u2
+91793,xshort00z_e2,xshort,00,DST,B_Z0_calib,True,236993,21,4.508,latest processing/fix of its group
+91794,xshort00z_u1,xshort,00,SUPERSEDED,B_Z0_calib,False,41309,4,0.766,older processing/fix of xshort00z_u2
+91797,xshort00z_u2,xshort,00,DST,B_Z0_calib,True,41309,4,0.763,latest processing/fix of its group
+92833,scan00_s1,scan,00,SUBSET,,False,18447,1944,7.371,selection from a larger stream (scan)
+92858,lept00_s,lept,00,SUBSET,,False,7135,1,0.208,selection from a larger stream (lept)
+92875,scan00_c1,scan,00,SUBSET,,False,50430,5986,20.703,selection from a larger stream (scan)
+92920,scan00_u1,scan,00,SUBSET,,False,18177,1932,7.718,selection from a larger stream (scan)
+92941,rawd00,rawd,00,RAW,,False,21256481,8247,974.054,RAW data of all events; not a DST (needs full reconstruction)
+92971,lept00_c,lept,00,SUBSET,,False,43808,6,1.172,selection from a larger stream (lept)
+92985,stic00_e1,stic,00,SUBSET,,False,2777987,54,9.469,selection from a larger stream (stic)
+92987,stic00_s1,stic,00,SUBSET,,False,994432,22,3.442,selection from a larger stream (stic)
+93040,stic00_c1,stic,00,SUBSET,,False,2777986,58,9.615,selection from a larger stream (stic)
+93072,lept00_e,lept,00,SUBSET,,False,44571,8,1.217,selection from a larger stream (lept)
+93080,rawd_2,rawd,,RAW,,False,23318916,9434,1245.127,RAW data of all events; not a DST (needs full reconstruction)
+93087,scan00_e1,scan,00,SUBSET,,False,51179,5992,21.411,selection from a larger stream (scan)
+93146,stic00_u1,stic,00,SUBSET,,False,994427,20,3.408,selection from a larger stream (stic)
+93183,lept00_u,lept,00,SUBSET,,False,7220,3,0.215,selection from a larger stream (lept)

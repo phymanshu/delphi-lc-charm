@@ -1,0 +1,7 @@
+# analysis (src/, tools/, tests/)
+numpy>=1.22
+pandas>=1.5
+matplotlib>=3.5      # Axes.stairs
+scipy>=1.8           # mass fits only; everything else runs without it
+# data download only (dump/delphi_download.sh); xrdcp comes with the XRootD client (available on lxplus)
+cernopendata-client
